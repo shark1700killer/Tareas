@@ -1,0 +1,55 @@
+package calculadora;
+import java.util.Scanner;
+
+public class calculadora{
+	public static void main(String[] args){
+	int a1,a2,a3,a4,a5,a6,a7,a8,b,c,d,e,f,g,sum,rest,div,multi;
+	Scanner scan= new Scanner(System in);
+	
+	System.out.println("1 para suma");
+	System.out.println("2 para resta");
+	System.out.println("3 para multiplicacion");
+	System.out.println("4 para division");
+	System.out.println("5 para salir");
+	System.out.println("Introduzca una operacion");
+	b= scan.nextInt();
+
+	switch(b){
+		case1:
+		System.out.println("INTRODUZCA UN NUMERO:  ");
+		a1=scan.nextInt();
+		System.out.println("INTRODUZCA UN NUMERO:  ");
+		a2=scan.nextInt();
+		System.out.println("RESULTADO: + sum");
+		sum=a1+a2;
+		break;
+
+		case2:
+		System.out.println("INTRODUZCA UN NUMERO:  ");
+		a3=scan.nextInt();
+		System.out.println("INTRODUZCA UN NUMERO:  ");
+		a4=scan.nextInt();
+		System.out.println("RESULTADO: + rest");
+		rest=a3-a4;
+		break;
+
+		case3:
+		System.out.println("INTRODUZCA UN NUMERO:  ");
+		a5=scan.nextInt();
+		System.out.println("INTRODUZCA UN NUMERO:  ");
+		a6=scan.nextInt();
+		System.out.println("RESULTADO: + multi");
+		rest=a5*a6;
+		break;
+	
+		case4 
+		System.out.println("INTRODUZCA UN NUMERO:  ");
+		a7=scan.nextInt();
+		System.out.println("INTRODUZCA UN NUMERO:  ");
+		a8=scan.nextInt();
+		System.out.println("RESULTADO: + div");
+		rest=a7/a8;
+		break;
+		}
+	}
+}
