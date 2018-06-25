@@ -1,0 +1,13 @@
+problema 2 
+/*Muestre los numeros del 1 al 100 (ambos incluidos)
+usa un buble while*/
+public class PROBLEMA 2{
+public static void main(String args){
+//TODO Auto-generated method stub 
+System.out.printl("Numeros del 1 al 100");
+int i=1;
+while(i<=100){
+System.out.print(i);
+}
+}
+}

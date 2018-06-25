@@ -1,0 +1,41 @@
+package tareas;
+
+import java.util.Scanner;
+
+public class Problema4 {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		int i=1, contador, Nump=0, Numn=0, Numm=0, NumMe=0;
+		float num = 0;
+		System.out.print("Digite un numero \n");
+		contador= entrada.nextInt();
+			
+		while(contador != -1 ) {
+			num = num+contador;
+			if(contador > 0) {
+				Nump = contador + Nump;
+			}
+			if(contador < 0) {	
+				Numn = contador + Numn;
+			}
+			
+			if(contador>Numm) {
+				Numm = contador;
+			}
+			if(contador<NumMe) {
+				NumMe = contador;
+			}
+			System.out.print("Digite un numero o -1 para salir \n");
+			contador= entrada.nextInt();
+		}
+		
+		System.out.print("salistes \n");
+		System.out.print("Positivos: "+Nump+"\n");		
+		System.out.print("Negativos: "+Numn+"\n");
+		System.out.print("Mayor: "+Numm+"\n");
+		System.out.print("Menor: "+NumMe+"\n");
+		System.out.print("Total: "+num+"\n");
+	}
+
+}
